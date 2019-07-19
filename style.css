@@ -1,0 +1,30 @@
+/* #container {
+    background-color: #F3F3ED
+} */
+
+#jumbo {
+    
+    background-color: #33CC34;
+    color: white;
+    font-weight: bolder;
+    margin-top: 2vh;
+}
+
+img {
+    height: 150px;
+}
+
+#cardHeader {
+    color: #FFFFFF;
+    font-weight: bolder;
+    background-color: #256C2F;
+}
+
+#myButton {
+    color: #FFFFFF;
+    background-color: #256C2F;
+}
+
+.labelName {
+    font-weight: bold;
+}
