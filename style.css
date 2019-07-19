@@ -28,3 +28,8 @@ img {
 .labelName {
     font-weight: bold;
 }
+
+#cardData {
+    margin-bottom: 2.5vh;
+}
+
