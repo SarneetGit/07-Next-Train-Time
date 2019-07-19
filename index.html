@@ -25,7 +25,7 @@
         <div class="jumbotron rounded" id="jumbo">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6"><img src="https://upload.wikimedia.org/wikipedia/commons/3/35/GO_Transit_logo.svg" alt="Should've been GO sign"></div>
+                    <div class="col-md-6"><img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/3/35/GO_Transit_logo.svg" alt="Should've been GO sign"></div>
                     <div class="col-md-6">
                         <h1 class="text-center">GO Train Schedule</h1>
                         <br>
@@ -37,7 +37,7 @@
 
         <div class="row">
             <div class="col-md-12">
-                <div class="card">
+                <div class="card" id="cardData">
                     <div class="card-header" id="cardHeader">
                         Current Train Schedule
                     </div>
@@ -69,19 +69,19 @@
                         <form>
                             <div class="form-group">
                                 <label class="labelName" for="employee-name-input">Train Name</label>
-                                <input class="form-control" id="" placeholder="Thomas the Train" type="text">
+                                <input class="form-control" id="train" placeholder="Thomas the Train" type="text">
                             </div>
                             <div class="form-group">
                                 <label class="labelName" for="role-input">Destination</label>
-                                <input class="form-control" id="role-input" placeholder="Area 51" type="text">
+                                <input class="form-control" id="destination" placeholder="Area 51" type="text">
                             </div>
                             <div class="form-group">
                                 <label class="labelName" for="start-input">First Train Time (HH:MM - Military Time)</label>
-                                <input class="form-control" id="start-input" placeholder="01/08/1989" type="text">
+                                <input class="form-control" id="time" placeholder="14:20" type="text">
                             </div>
                             <div class="form-group">
                                 <label class="labelName" for="rate-input">Frequency (min)</label>
-                                <input class="form-control" id="rate-input" placeholder="30" type="text">
+                                <input class="form-control" id="frequency" placeholder="30" type="text">
                             </div>
                             <button class="btn btn-primary float-right" id="myButton">Submit</button>
                         </form>
@@ -89,7 +89,7 @@
                 </div>
             </div>
         </div>  
-
     </div>
+<script src="javascript.js"></script>
 </body>
 </html>
